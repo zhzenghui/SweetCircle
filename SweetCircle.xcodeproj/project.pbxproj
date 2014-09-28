@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46FAA781123C4EC4AE620019 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4117FD0E21BA46C69FA42C70 /* libPods.a */; };
+		C002703A19D815F200BA7FCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C002703919D815F200BA7FCB /* Foundation.framework */; };
+		C002703C19D815F200BA7FCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C002703B19D815F200BA7FCB /* CoreGraphics.framework */; };
+		C002703E19D815F200BA7FCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C002703D19D815F200BA7FCB /* UIKit.framework */; };
+		C002704419D815F200BA7FCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C002704219D815F200BA7FCB /* InfoPlist.strings */; };
+		C002704619D815F200BA7FCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C002704519D815F200BA7FCB /* main.m */; };
+		C002704A19D815F200BA7FCB /* ZHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C002704919D815F200BA7FCB /* ZHAppDelegate.m */; };
+		C002704D19D815F200BA7FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C002704B19D815F200BA7FCB /* Main.storyboard */; };
+		C002705019D815F200BA7FCB /* ZHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C002704F19D815F200BA7FCB /* ZHViewController.m */; };
+		C002705219D815F200BA7FCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C002705119D815F200BA7FCB /* Images.xcassets */; };
+		C002705919D815F200BA7FCB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C002705819D815F200BA7FCB /* XCTest.framework */; };
+		C002705A19D815F200BA7FCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C002703919D815F200BA7FCB /* Foundation.framework */; };
+		C002705B19D815F200BA7FCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C002703D19D815F200BA7FCB /* UIKit.framework */; };
+		C002706319D815F300BA7FCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C002706119D815F300BA7FCB /* InfoPlist.strings */; };
+		C002706519D815F300BA7FCB /* SweetCircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C002706419D815F300BA7FCB /* SweetCircleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C002705C19D815F300BA7FCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C002702E19D815F200BA7FCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C002703519D815F200BA7FCB;
+			remoteInfo = SweetCircle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4117FD0E21BA46C69FA42C70 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C002703619D815F200BA7FCB /* SweetCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C002703919D815F200BA7FCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C002703B19D815F200BA7FCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C002703D19D815F200BA7FCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C002704119D815F200BA7FCB /* SweetCircle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SweetCircle-Info.plist"; sourceTree = "<group>"; };
+		C002704319D815F200BA7FCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C002704519D815F200BA7FCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C002704719D815F200BA7FCB /* SweetCircle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SweetCircle-Prefix.pch"; sourceTree = "<group>"; };
+		C002704819D815F200BA7FCB /* ZHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHAppDelegate.h; sourceTree = "<group>"; };
+		C002704919D815F200BA7FCB /* ZHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHAppDelegate.m; sourceTree = "<group>"; };
+		C002704C19D815F200BA7FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C002704E19D815F200BA7FCB /* ZHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHViewController.h; sourceTree = "<group>"; };
+		C002704F19D815F200BA7FCB /* ZHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHViewController.m; sourceTree = "<group>"; };
+		C002705119D815F200BA7FCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C002705719D815F200BA7FCB /* SweetCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C002705819D815F200BA7FCB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C002706019D815F300BA7FCB /* SweetCircleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SweetCircleTests-Info.plist"; sourceTree = "<group>"; };
+		C002706219D815F300BA7FCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C002706419D815F300BA7FCB /* SweetCircleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SweetCircleTests.m; sourceTree = "<group>"; };
+		CE902F47A9CB47A48A17A88C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C002703319D815F200BA7FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C002703C19D815F200BA7FCB /* CoreGraphics.framework in Frameworks */,
+				C002703E19D815F200BA7FCB /* UIKit.framework in Frameworks */,
+				C002703A19D815F200BA7FCB /* Foundation.framework in Frameworks */,
+				46FAA781123C4EC4AE620019 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C002705419D815F200BA7FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C002705919D815F200BA7FCB /* XCTest.framework in Frameworks */,
+				C002705B19D815F200BA7FCB /* UIKit.framework in Frameworks */,
+				C002705A19D815F200BA7FCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C002702D19D815F200BA7FCB = {
+			isa = PBXGroup;
+			children = (
+				C002703F19D815F200BA7FCB /* SweetCircle */,
+				C002705E19D815F300BA7FCB /* SweetCircleTests */,
+				C002703819D815F200BA7FCB /* Frameworks */,
+				C002703719D815F200BA7FCB /* Products */,
+				CE902F47A9CB47A48A17A88C /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		C002703719D815F200BA7FCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C002703619D815F200BA7FCB /* SweetCircle.app */,
+				C002705719D815F200BA7FCB /* SweetCircleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C002703819D815F200BA7FCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C002703919D815F200BA7FCB /* Foundation.framework */,
+				C002703B19D815F200BA7FCB /* CoreGraphics.framework */,
+				C002703D19D815F200BA7FCB /* UIKit.framework */,
+				C002705819D815F200BA7FCB /* XCTest.framework */,
+				4117FD0E21BA46C69FA42C70 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C002703F19D815F200BA7FCB /* SweetCircle */ = {
+			isa = PBXGroup;
+			children = (
+				C002704819D815F200BA7FCB /* ZHAppDelegate.h */,
+				C002704919D815F200BA7FCB /* ZHAppDelegate.m */,
+				C002704B19D815F200BA7FCB /* Main.storyboard */,
+				C002704E19D815F200BA7FCB /* ZHViewController.h */,
+				C002704F19D815F200BA7FCB /* ZHViewController.m */,
+				C002705119D815F200BA7FCB /* Images.xcassets */,
+				C002704019D815F200BA7FCB /* Supporting Files */,
+			);
+			path = SweetCircle;
+			sourceTree = "<group>";
+		};
+		C002704019D815F200BA7FCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C002704119D815F200BA7FCB /* SweetCircle-Info.plist */,
+				C002704219D815F200BA7FCB /* InfoPlist.strings */,
+				C002704519D815F200BA7FCB /* main.m */,
+				C002704719D815F200BA7FCB /* SweetCircle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C002705E19D815F300BA7FCB /* SweetCircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C002706419D815F300BA7FCB /* SweetCircleTests.m */,
+				C002705F19D815F300BA7FCB /* Supporting Files */,
+			);
+			path = SweetCircleTests;
+			sourceTree = "<group>";
+		};
+		C002705F19D815F300BA7FCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C002706019D815F300BA7FCB /* SweetCircleTests-Info.plist */,
+				C002706119D815F300BA7FCB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C002703519D815F200BA7FCB /* SweetCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C002706819D815F300BA7FCB /* Build configuration list for PBXNativeTarget "SweetCircle" */;
+			buildPhases = (
+				0B3CF5ECF3C44608878C4457 /* Check Pods Manifest.lock */,
+				C002703219D815F200BA7FCB /* Sources */,
+				C002703319D815F200BA7FCB /* Frameworks */,
+				C002703419D815F200BA7FCB /* Resources */,
+				A10B4A3637A54BD5956ACAC0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SweetCircle;
+			productName = SweetCircle;
+			productReference = C002703619D815F200BA7FCB /* SweetCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C002705619D815F200BA7FCB /* SweetCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C002706B19D815F300BA7FCB /* Build configuration list for PBXNativeTarget "SweetCircleTests" */;
+			buildPhases = (
+				C002705319D815F200BA7FCB /* Sources */,
+				C002705419D815F200BA7FCB /* Frameworks */,
+				C002705519D815F200BA7FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C002705D19D815F300BA7FCB /* PBXTargetDependency */,
+			);
+			name = SweetCircleTests;
+			productName = SweetCircleTests;
+			productReference = C002705719D815F200BA7FCB /* SweetCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C002702E19D815F200BA7FCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "zeng hui";
+				TargetAttributes = {
+					C002705619D815F200BA7FCB = {
+						TestTargetID = C002703519D815F200BA7FCB;
+					};
+				};
+			};
+			buildConfigurationList = C002703119D815F200BA7FCB /* Build configuration list for PBXProject "SweetCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C002702D19D815F200BA7FCB;
+			productRefGroup = C002703719D815F200BA7FCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C002703519D815F200BA7FCB /* SweetCircle */,
+				C002705619D815F200BA7FCB /* SweetCircleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C002703419D815F200BA7FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C002705219D815F200BA7FCB /* Images.xcassets in Resources */,
+				C002704419D815F200BA7FCB /* InfoPlist.strings in Resources */,
+				C002704D19D815F200BA7FCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C002705519D815F200BA7FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C002706319D815F300BA7FCB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B3CF5ECF3C44608878C4457 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A10B4A3637A54BD5956ACAC0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C002703219D815F200BA7FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C002705019D815F200BA7FCB /* ZHViewController.m in Sources */,
+				C002704A19D815F200BA7FCB /* ZHAppDelegate.m in Sources */,
+				C002704619D815F200BA7FCB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C002705319D815F200BA7FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C002706519D815F300BA7FCB /* SweetCircleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C002705D19D815F300BA7FCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C002703519D815F200BA7FCB /* SweetCircle */;
+			targetProxy = C002705C19D815F300BA7FCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C002704219D815F200BA7FCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C002704319D815F200BA7FCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C002704B19D815F200BA7FCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C002704C19D815F200BA7FCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C002706119D815F300BA7FCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C002706219D815F300BA7FCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C002706619D815F300BA7FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C002706719D815F300BA7FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C002706919D815F300BA7FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE902F47A9CB47A48A17A88C /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SweetCircle/SweetCircle-Prefix.pch";
+				INFOPLIST_FILE = "SweetCircle/SweetCircle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C002706A19D815F300BA7FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE902F47A9CB47A48A17A88C /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SweetCircle/SweetCircle-Prefix.pch";
+				INFOPLIST_FILE = "SweetCircle/SweetCircle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C002706C19D815F300BA7FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SweetCircle.app/SweetCircle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SweetCircle/SweetCircle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SweetCircleTests/SweetCircleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C002706D19D815F300BA7FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SweetCircle.app/SweetCircle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SweetCircle/SweetCircle-Prefix.pch";
+				INFOPLIST_FILE = "SweetCircleTests/SweetCircleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C002703119D815F200BA7FCB /* Build configuration list for PBXProject "SweetCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C002706619D815F300BA7FCB /* Debug */,
+				C002706719D815F300BA7FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C002706819D815F300BA7FCB /* Build configuration list for PBXNativeTarget "SweetCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C002706919D815F300BA7FCB /* Debug */,
+				C002706A19D815F300BA7FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C002706B19D815F300BA7FCB /* Build configuration list for PBXNativeTarget "SweetCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C002706C19D815F300BA7FCB /* Debug */,
+				C002706D19D815F300BA7FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C002702E19D815F200BA7FCB /* Project object */;
+}

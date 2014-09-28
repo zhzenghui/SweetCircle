@@ -1,0 +1,8 @@
+platform :ios, '6.0'
+pod 'JSONKit',       '~> 1.4'
+pod 'AFNetworking'
+pod 'SVProgressHUD'
+pod 'SVPullToRefresh'
+pod 'SDWebImage'
+pod 'pop', '~> 1.0'
+pod 'ZHLib'
